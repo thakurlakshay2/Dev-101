@@ -1,0 +1,15 @@
+{
+  "name": "lecture-1",
+  "version": "1.0.0",
+  "description": "GettingStartedWithNode.js",
+  "main": "Dec2Binary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "OurMkdir": "GetingStartedWithNode.js",
+    "ls": "fileName.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
