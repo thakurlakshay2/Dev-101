@@ -20,7 +20,7 @@ if(ans==true){
     console.log(input+" already exists");
 }
 else{
-    fs.mkdirSync(input);
+    fs.mkdirSync(input);   //makes a new folder
     console.log("Folder "+input+" is made");
 }
 
