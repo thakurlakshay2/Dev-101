@@ -1,0 +1,9 @@
+console.log(typeof "Var");
+console.log(typeof 10);
+console.log(typeof 10.1);
+console.log(typeof undefined);
+console.log(typeof true);
+console.log(typeof [1,2,3,4,5]);
+console.log(typeof function(){});
+console.log(typeof {name:"cap"});
+console.log(typeof null);
