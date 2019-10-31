@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+       *{scroll-behavior: smooth;}
+       body{
+           /* color red */
+           box-sizing: border-box;
+           margin: 1rem;
+           margin-left: 0.2rem;
+           /* background-image: url("markus-spiske-qjnAnF0jIGk-unsplash.jpg"); */
+            background-image: linear-gradient(rgba(26,188,156,0.7),rgba(231,76,60,1.0)
+            /* ,url("david-pisnoy-GmN13w9bg8w-unsplash") */
+            ); 
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+
+       header{
+           padding-top:0rem ;
+           margin-top:0rem;
+           display: flex;
+           justify-content: space-between;
+       }
+
+       ul{
+           display: flex;               /*for same line*/
+           justify-content:  space-between;
+       }
+
+       li{
+           font-size: 1.5rem;
+           list-style: none;         /*for dot*/
+           padding-right: 2rem ;
+           margin-top:  1rem;
+       }
+       
+       h1{
+           font-size: 2.5rem;                /*rem is size with respect to default*/
+           font-weight: 400;                 /* boldness*/
+       }
+
+       a{
+            text-decoration: none;   
+            color: black;
+       }
+       a:hover{
+           text-decoration: underline;
+           text-decoration-color:forestgreen ;
+           /* color: red; */
+       }
+      
+       
+
+       .i{
+           width: 100%;                           /*remains same even when browser is samller same for height and width*/
+           height: 120vh;
+       }
+       img{
+           height: 5rem;
+           width:12vh;
+       }
+
+       article{
+           display: flex;
+       }
+       .container{
+           text-align: center;
+           padding: 0 1rem;          /*0 for top bottom and 1 for left right*/
+       }
+       .paragraph{
+           font-size: 1.2rem;
+           text-align: justify;
+       }
+
+
+       footer{
+           text-align: center;
+           font-size: 3rem;
+           color: rgb(255, 255, 255);
+           /* background-color:rgb(31, 25, 25); */
+           background-image: linear-gradient(red,yellow);
+       }
+
+   </style>
+</head>
+<body>
+  <header>  
+    <h1>DEV 101</h1>
+    <nav>
+            <ul>
+                <li><a href="#article">HTML5</a></li>
+                <li><a href="#article">CSS3</a></li>
+                <li><a href="#article">JavaScript</a></li>
+            </ul>
+        </nav>
+        
+  </header>
+
+  <main>  
+        
+        <img src="markus-spiske-qjnAnF0jIGk-unsplash.jpg" alt="img" class="i">
+  </main>
+
+  <article id="article">
+    <div class="container">
+        <img src="HTML5.jpg" alt="Html img">
+        <h2>HTML5</h2>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, sunt accusantium eius in molestias ad amet nemo. Quasi quidem ratione unde corrupti ducimus rerum maxime, praesentium, voluptatum aliquam, ullam aliquid!</p>
+    </div>
+    <div class="container">
+        <img src="CSS.jpg" alt="Css img">
+        <h2>CSS3</h2>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolores. Officia architecto iusto cumque inventore deleniti earum ipsam hic, eaque reiciendis, magni id accusamus temporibus corporis saepe, maiores fugiat omnis?</p>
+    </div>
+    <div class="container">
+        <img src="JS.jpg" alt="JavaScript img">
+        <h2>JavaScript</h2>
+        <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis accusantium alias ex aperiam debitis autem atque commodi fugiat suscipit cum saepe ullam, eaque corporis! Velit dignissimos quasi minus odit minima.</p>
+    </div>
+     
+  </article>
+
+  <footer>
+      &copy; End
+  </footer>       
+</body>
+
+
+</html>
