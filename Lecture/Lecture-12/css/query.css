@@ -32,6 +32,9 @@
        
         
     }
+    .visible{
+        background: black;
+    }
     .nav-line{
         font-size: 0.8rem;
               /*for dot*/

@@ -23,7 +23,7 @@ body{
 header{
     background-image:
     linear-gradient(rgba(22, 20, 20, 0.856),rgba(255, 255, 255, 0)),
-    url("/img/1.jpg");
+    url("../img/1edit.jpg");
     /* background-color: rgba(22, 20, 20, 0.23); */
     background-size:cover;
     width:100%;
@@ -324,7 +324,7 @@ main{
     height:80vh;
     width:100%;
     background-image: 
-    url("/img/background-brown-carpentry-326311.jpg");
+    url("../img/background-brown-carpentry-326311.jpg");
     color: white;
 }
 .pt{
@@ -419,7 +419,7 @@ button{
     margin: 4rem 0rem;
     padding:0rem 0rem;
     display: flex;
-  
+    background-color: #f3f3f3;
     /* justify-content: center; */
 }
 
@@ -427,18 +427,24 @@ button{
     font-size: 1.6rem;
     margin: 0rem 5rem;
     padding: 0rem 2rem;
-    background-color:rgb(236, 223, 223) ;
+    background-color:rgb(255, 255, 255) ;
     padding-right:5rem;
     
     border-radius: 2rem;
-    transition: transform 0.3s,color 1s, background-color 0.3s;
+   
 }
-.bck:hover{
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* .bck:hover{
     
     background-image:  linear-gradient(rgb(209, 203, 203),rgb(27, 26, 26));
   
     transform: scale(1.05); 
-}
+} */
 .data{
    margin:0rem;
    margin-top:2rem;
@@ -451,6 +457,12 @@ button{
 }
 .tag{
     color: #2ecc71;
+    font-size:3rem;
+    font-weight:800;
+}
+.diff{
+    font-size:1.5rem;
+    font-weight:400 ;
 }
 .tick{
     color:#2ecc71;

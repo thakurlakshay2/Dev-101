@@ -12,9 +12,9 @@
     <header>
         
             
-        <nav>
+        <nav class="sticky">
            
-            <img src="/img/foodicon1.png" style="width:2rem,height,2rem" class="logo"  alt="LOGO ">     
+            <img src="img/foodicon1.png" style="width:2rem,height,2rem" class="logo"  alt="LOGO ">     
             <div class="listing mobile-icon">
                 <i class="fas fa-bars" onclick=""></i>
                 </div>
@@ -75,7 +75,7 @@
             <h2 class="h2-main">HOW IT WORKS - SIMPLE AS 1,2,3</h2>
             
             <container class="imgnpoints_cnt">
-                    <img src="/img/phone.jpg" alt="imagephone" class="imagephone">
+                    <img src="img/phone.jpg" alt="imagephone" class="imagephone">
                 <div class="pts_cnt">
                         
                     <span class="step-cont clear-fix">
@@ -108,7 +108,7 @@
         <div class="places123">
         
                 <div class="single_data">
-                    <img src="/img/lisbon.png"  alt="Lisbon" class="citi_img">
+                    <img src="img/lisbon.png"  alt="Lisbon" class="citi_img">
                     <h2 class="h2_article">LISBON</h2>
                      <div class="pnts_places">
                         <span class="step1-cont">
@@ -127,7 +127,7 @@
                     
                 </div>
                 <div class="single_data">
-                        <img src="/img/san fransisco.png"  alt="San Fransisco" class="citi_img">                    
+                        <img src="img/san fransisco.png"  alt="San Fransisco" class="citi_img">                    
                     <h2 class="h2_article">SAN FRANSISCO</h2> 
                     <div class="pnts_places">
                             <span class="step1-cont">
@@ -145,7 +145,7 @@
                         </div>                
                 </div>
                 <div class="single_data">
-                        <img src="/img/berlin.png"  alt="Berlin" class="citi_img">                  
+                        <img src="img/berlin.png"  alt="Berlin" class="citi_img">                  
                     <h2 class="h2_article">BERLIN</h2>  
                     <div class="pnts_places">
                             <span class="step1-cont">
@@ -163,7 +163,7 @@
                         </div>      
                 </div>
                 <div class="single_data">
-                        <img src="/img/london.png"  alt="London" class="citi_img">
+                        <img src="img/london.png"  alt="London" class="citi_img">
                         <!-- <i class="fas fa-shopping-cart icon"></i> -->
                         <h2 class="h2_article">LONDON</h2>
                         <div class="pnts_places">
@@ -197,7 +197,7 @@
                         <!-- <i class="fas fa-quote-left"></i> -->
                    <blockquote>Omni food is awesome! I just launched a startup which leaves me with no time for cooking, Omnifood is a life-saver.Now that i got used to it, I couldn't live without my daily meals!</blockquote>
                    <cite>
-                       <img src="/img/painharold.png" alt="somebody" class="person">
+                       <img src="img/painharold.png" alt="somebody" class="person">
                        <h3 class="name">Joana mills</h3>
                    </cite>
                 </div>
@@ -205,7 +205,7 @@
                 <div class="reviw">
                     <blockquote>Inexpensive, healthy and great-ttasting meals,delivered to my home.We have lots of food deliveryhere in Lisbon,but no one comes even close to Omnifood. Me and my family are so in love!</blockquote>
                    <cite>
-                        <img src="/img/painharold.png" alt="somebody" class="person">
+                        <img src="img/painharold.png" alt="somebody" class="person">
                         <h3 class="name">Milly Castle</h3>
                     </cite>     
                 </div>
@@ -213,7 +213,7 @@
                 <div class="reviw">
                     <blockquote>I was looking for a quick and easy food delivery service in San Francisco.I tried a lot of them and ended up with Omnifood.Best food delivery service in the Bay Area.Keep up the great work!</blockquote> 
                     <cite>
-                            <img src="/img/painharold.png" alt="somebody" class="person">
+                            <img src="img/painharold.png" alt="somebody" class="person">
                             <h3 class="name">Jack Fire</h3>
                         </cite>
                      
@@ -223,17 +223,19 @@
 
     </article>
         
-    <section>
+    <section class="pricing">
             <h2 class="h2-main" style="margin-top:4rem; font-weight: 200">START EATING HEALTHY TODAY</h2>
             <div class="package">
 
                 <div  class="bck">
                 <h3 class="price-head">STARTER</h3>
-                <p class="tag">$19/meal</p>
+                <p class="tag">$19<span class="diff">/meal</span></p>
                 <div class="data">
+                        <hr>
                 <p><i class="fas fa-check-circle tick"></i>1 meal</p>
                 <p><i class="fas fa-check-circle tick"></i>Order from 8am to 12 pm</p>
                 <p><i class="fas fa-check-circle tick"></i>Free delivery</p>
+                        
                 </div>   
                 <div class="signs">
                     
@@ -242,16 +244,19 @@
                 </div>  
 
                 </div>
-
+                <hr>
                 <div class="bck">
                 <h3 class="price-head">PRO</h3>
-                <p class="tag">149$/month</p>
+                <p class="tag">149$<span class="diff">/month</span></p>
                 <p>That's only 14.90$ per meal</p>
+                
                 <div class="data">
+                    <hr>    
                 <p><i class="fas fa-check-circle tick"></i>1 meal 10 days/month</p>
                 <p><i class="fas fa-check-circle tick"></i>Order 24/7</p>
                 <p><i class="fas fa-check-circle tick"></i>Access to newest creations</p>
                 <p><i class="fas fa-check-circle tick"></i>Free delivery</p>
+                    <hr>
                 </div>
                
                 <div class="signs">  
@@ -263,13 +268,15 @@
 
                 <div class="bck">
                 <h3 class="price-head">PREMIUM</h3>
-                <p class="tag" >$399 /month</p>
+                <p class="tag" >$399<span class="diff">/month</span></p>
                 <p>That's only 13.50$ per meals</p>
                 <div class="data">
+                        <hr>
                 <p><i class="fas fa-check-circle tick"></i>1 meal every day</p>
                 <p><i class="fas fa-check-circle tick"></i>Order 24/7</p>
                 <p><i class="fas fa-check-circle tick"></i>Access to newest creations</p>
-                <p><i class="fas fa-check-circle tick"></i>Free delivery</p>
+                <p><i class="fas fa-check-circle tick"></i>Free delivery</p> 
+                        <hr>
                 </div>    
                
                 <div class="signs">   
