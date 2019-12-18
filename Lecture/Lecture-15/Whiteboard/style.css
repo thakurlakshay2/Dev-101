@@ -1,0 +1,19 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    overflow:hidden;
+}
+img{
+height:4rem;
+padding:1rem 2rem;
+
+}
+.active{
+    padding:0.5rem;
+    background-color: grey;
+    border-radius:50%;
+}
+
+.board{
+    background-color: lightblue;
+}

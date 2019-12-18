@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- React Logic -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <!-- React DOM -->
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <!-- Bable JSX=> JS -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    //react component
+    //props is property of the Hello i.e. name etc
+    function Hello(props){
+        return <h1>Hello {props.name}</h1>
+    }
+
+    function Hellos(){
+        return <React.Fragment> 
+            <Hello name="varun"></Hello>
+            <Hello name="Tarun"></Hello>
+            </React.Fragment>
+    }
+    ReactDOM.render(<Hellos></Hellos>,document.getElementById("root"));
+    
+    </script>
+</body>
+</html>

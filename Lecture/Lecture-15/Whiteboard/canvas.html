@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            overflow: hidden;
+            margin:0%;
+            padding: 0%;
+        }
+    </style>
+</head>
+<body>
+    <canvas class="board">
+
+
+    </canvas>
+    <script>
+        var board=document.querySelector(".board");
+        board.height=window.innerHeight;
+        board.width=window.innerWidth;
+
+        //to get rendering context 2d
+        var ctx=board.getContext("2d");
+        ctx.fillStyle="green";
+        //xinitial yinitial width and height
+        ctx.fillRect(0,0,window.innerWidth,window.innerHeight);
+        ctx.fillStyle="blue";
+        ctx.fillRect(0,0,600,400);
+
+        //stroke
+        ctx.strokeStyle="yellow"
+        ctx.strokeStyle="grey"
+        ctx.lineWidth=10;
+        ctx.strokeRect(40,60,400,500);
+
+        //lines
+        //A new path is defined(0,0)
+        ctx.beginPath();
+        ctx.fillStyle="red";
+        //without drawing move to a paritcular position in canvas
+        ctx.moveTo(150,150);
+        ctx.lineTo(350,350);
+        ctx.lineTo(400,500);
+        ctx.lineTo(150,200);
+        ctx.closePath();
+        ctx.stroke();
+        ctx.fill();
+
+
+        function degToRad(degree){
+            return degree*Math.PI/180;
+        }
+
+        ctx.beginPath();
+        ctx.arc(500,200,100,degToRad(0),degToRad(360));
+        ctx.fill();
+        ctx.stroke();
+
+    </script>
+    
+</body>
+</html>

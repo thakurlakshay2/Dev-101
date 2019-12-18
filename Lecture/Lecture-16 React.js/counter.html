@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- React Logic -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <!-- React DOM -->
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <!-- Bable JSX=> JS -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    class Counter extends React.Component{
+        constructor(){
+            super()
+            this.state={
+                count:0
+            }
+
+        }
+
+        increment=()=>{
+            this.setState({count:this.state.count+1});
+        }
+        decrement=()=>{
+            this.setState({count:this.state.count-1});
+        }
+
+        render(){
+            return (<React.Fragment>
+                <p><h1>{this.state.count}</h1></p>
+                <button onClick={this.increment}><h1>+</h1></button>
+                <button onClick={this.decrement}><h1>-</h1></button>
+                </React.Fragment>)
+        }
+    }
+    function Counters(){
+        return <React.Fragment>
+            <Counter></Counter>
+            <Counter></Counter>
+            <Counter></Counter>
+            <Counter></Counter>
+            <Counter></Counter></React.Fragment>
+    }
+    ReactDOM.render(<Counters></Counters>,document.getElementById("root"));
+    
+    </script>
+</body>
+</html>
