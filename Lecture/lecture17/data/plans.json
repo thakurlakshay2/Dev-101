@@ -1,0 +1,29 @@
+[
+    {
+    "id":1,
+    "name":"Premium",
+    "ratings":7,
+    "price":100,
+    "delivery":true,
+    "meal":3,
+    "description":"cdscsdcsdvfdv"
+    },
+    {
+    "id":2,
+    "name":"Vegan",
+    "ratings":9,
+    "price":180,
+    "delivery":true,
+    "meal":3,
+    "description":"cdscsdcsdvfdv"
+    },
+    {
+    "id":3,
+    "name":"Basic",
+    "ratings":6,
+    "price":80,
+    "delivery":true,
+    "meal":3,
+    "description":"cdscsdcsdvfdv"
+     }    
+]

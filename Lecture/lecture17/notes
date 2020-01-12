@@ -1,0 +1,9 @@
+SQL->Excel ki tareh hoti hai(ex. transactions)
+NoSql-> object ki tareh save krte h info ko ek row ki (ex. for prediction data)
+
+
+
+advantage of NoSql = faster update
+
+Server ki language alag hoti hai and database ki alag to unke bichme baat krwane wala driver hota hai(Mongoose is driver) 
+Schema->Structure of database
