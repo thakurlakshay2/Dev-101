@@ -4,11 +4,22 @@ const app = express()
 // let users = require("./data/users")
 const planRouter = require("./routers/planRouter")
 const userRouter = require("./routers/userRouter")
+const viewRouter = require("./routers/viewRouter")
 
 //postman se post req bhejne kelie body me raw and json kro 
+// =>static files
+app.use(express.static("public"));
+
+app.set("view engine","pug")
+// pug=>render
+app.set("views","views");
 
 app.use(express.json())  // ye line islie kuki webserver and client me json h but internet use chunk buffer me bhejte h to ye line us buffer ko json me convert krti h agr json thi pehle buffer wali file
-
+// app.get("/",function(req,res){
+//     console.log(req.url);
+//     res.render("base.pug")
+// })
+app.use("/",viewRouter);
 app.use("/api/plans",planRouter)
 app.use("/api/users",userRouter)
 //-----------------------------------------------------------------------------

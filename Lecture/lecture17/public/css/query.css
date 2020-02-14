@@ -1,0 +1,230 @@
+@media only screen and (max-width: 1200px){
+    body{
+        background-color: red;
+    }
+    
+}
+
+@media only screen and (max-width: 900px){
+    body{
+        background-color: green;
+    }
+   
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: yellow;
+
+    }
+    .listing{
+        margin-left: 25rem;
+        margin-top:1rem;
+        font-size: 1.5rem;
+        display: flex;
+        text-align: right;
+    }
+    .navigation{
+        margin-top:3rem;
+        margin-left:20rem;
+        display: block;
+        position: fixed;
+       
+        
+    }
+    .visible{
+        background: black;
+    }
+    .nav-line{
+        font-size: 0.8rem;
+              /*for dot*/
+        margin-right:1rem;
+        padding-bottom: 1rem;
+         margin-top:1rem;
+         color: black;
+         
+        
+    }
+    
+   
+    
+    .active{
+        display: none;
+    }
+
+.logo{
+    
+    margin-top:1rem;
+    margin-left: 1rem;
+    height:10%;
+    width: 5%;
+    opacity: 0.6;
+   margin-right: 5rem;
+    /* background: bl; */
+}
+
+    div{
+        
+        margin-top:13rem;
+        margin-left: 8rem;
+    }
+    h2{ 
+        
+       
+        font-size: 2rem;
+       
+        font-weight: 500;
+    
+    }
+    .g{
+        font-size: 1.15rem;
+       
+       
+    }
+
+    .h2-main{
+        margin-top:2rem;
+        margin-bottom: 0rem;
+        /* border-block-style: ; */
+        font-weight: 300;
+        
+    }
+    
+    .p-main{
+        margin-left:2rem;
+        margin-right:2rem;
+        font-size: 100%;
+    }
+    .writing{
+       display:block;
+        margin: 2rem;
+        margin-bottom: 2rem;
+    }
+    .h2_article{
+        font-weight:150;
+        font-size: 1.5rem;
+        text-align: center;   
+    }
+    .paragraph{
+        font-size: 1.1rem;
+    }
+
+
+
+    
+    .imgnpoints_cnt{
+        margin:2rem 1rem;
+    }
+    .imagephone{
+    
+        height: 20rem;
+        width: 10rem;
+       
+    }
+    .pts_cnt{
+    
+        margin-top:0rem;
+        margin-left: 4em;
+        
+    
+    }
+    .num{
+        border: 2px solid #2ecc71;
+        border-radius: 50%;
+        border-color:#2ecc71;
+        height: 2rem;
+        width:  2rem;
+        margin-bottom: 2rem;
+        /* display:block;    */
+        margin-right: 2rem;
+         font-size: 1rem; 
+         color: #2ecc71;  
+        
+    } 
+    .text_line{
+        font-size: 1.15rem;
+        padding:1rem 0rem ;
+    }
+
+
+
+    .places123{
+       
+        display:block;
+        margin:2rem 3rem;
+        
+    }
+    .citi_img{
+        height: 25vh;
+        width: 50vw;
+    }
+    .pnts_places{
+        text-align: center;
+        margin:2rem 1rem;
+    }
+
+
+    .end{
+        height:140vh;
+        width:100%;
+        background-image: 
+        url("/img/background-brown-carpentry-326311.jpg");
+        color: white;
+    }
+    .end-div{
+        margin:1rem 3rem;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .reviw{
+        margin:0rem 2.5rem;
+        text-align: left;
+        font-size: 1rem;
+    }
+    blockquote::before{
+        content:'\201C';
+        font-size:200%;
+        display:block;
+        
+    }
+    cite{
+        margin:1rem 0rem;
+    }
+    .person{
+        border-radius: 50%;
+        height: 3rem;
+    }
+    .name{
+        margin:1.5rem 1.2rem;
+    }
+
+    .package{
+        display:block;
+      
+        /* justify-content: center; */
+    }
+
+
+    .form-group{
+        margin-top:3rem;
+        margin-left:3rem;
+        
+    }
+    
+    label{
+        margin:0rem;
+    }
+    button{
+
+        border-radius: 4rem;
+        background-color: #2ecc71;
+        color: aliceblue;
+        font-size: 1.5rem;
+        border:0.2rem solid #2ecc71;
+        margin-top:3rem;
+        margin-left:5rem;
+        margin-bottom: 3rem;
+        
+    }
+  
+}

@@ -416,8 +416,8 @@ button{
 
 .package{
    
-    margin: 4rem 0rem;
-    padding:0rem 0rem;
+    margin: 0rem 0rem;
+    padding:3rem 3rem;
     display: flex;
     background-color: #f3f3f3;
     /* justify-content: center; */
